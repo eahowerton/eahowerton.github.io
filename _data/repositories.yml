@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - eahowerton
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - eahowerton/hmpv-rsv-intervention
+  - eahowerton/CombineDistributions
+  - midas-network/covid19-scenario-hub_evaluation
+  - eahowerton/misapplied_management
+  - eahowerton/scenario-magnitude-vs-ranking
+  - eahowerton/governance-and-disease-control
+  
