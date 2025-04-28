@@ -9,7 +9,7 @@ children:
     permalink: /projects/
   - title: divider
   - title: repositories
-    permalink: /repositories/
+    permalink: /repositories_drop/
   - title: divider
   - title: teaching
     permalink: /teaching/  
