@@ -5,11 +5,11 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: projets
+  - title: projects
     permalink: /projects/
   - title: divider
   - title: repositories
-    permalink: /repositories_drop/
+    permalink: /repositories/
   - title: divider
   - title: teaching
     permalink: /teaching/  
