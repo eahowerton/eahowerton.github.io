@@ -8,7 +8,7 @@ children:
   - title: projects
     permalink: /projects/
   - title: divider
-  - title: repositories
+  - title: code
     permalink: /repositories/
   - title: divider
   - title: teaching
