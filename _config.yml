@@ -183,6 +183,7 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
+  - _layouts/post.liquid
   - lighthouse_results/
   - package.json
   - package-lock.json
