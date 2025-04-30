@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Postdoctoral Research Associate, Princeton Univeristy  <br> High Meadows Environmental Institute and Department of Ecology and Evolutionary Biology<br><br>infectious disease modeling | quantitative methods | management under uncertainty <br>
-# <a href='https://environment.princeton.edu'>High Meadows Environmental Insitute</a>   <a href='https://eeb.princeton.edu'>Department of Ecology and Evolutionary Biology</a> 
+# <a href='https://environment.princeton.edu'>High Meadows Environmental Insitute</a>   <a href='https://eeb.princeton.edu'>Department of Ecology and Evolutionary Biology</a>
 
 profile:
   align: left
@@ -29,10 +29,10 @@ latest_posts:
 
 My research leverages a range of quantitative methods to better understand the biology of infectious diseases and improve our predictions of future outbreaks. My interests include the **community ecology and cross-scale dynamics of respriatory viruses**, such as the implications of virus-virus interactions for coexistence and population dynamics. In parallel, my work advances **real-time predictability of respiratory virus burden**. As a member of the [US Scenario Modeling Hub](https://scenariomodelinghub.org), I develop new methods to improve multi-model scenario projections that inform public health decision making in real time.
 
-Beyond research, I am passionate about teaching mathematics to biology students and developing student confidence in their mathematical abilities. 
+Beyond research, I am passionate about teaching mathematics to biology students and developing student confidence in their mathematical abilities.
+
 <!-- See my [teaching page](_pages/teaching.md) to learn more!   -->
 <!-- making quantiative methods accessible -->
-
 
 <!-- TESTING 123. 456. Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

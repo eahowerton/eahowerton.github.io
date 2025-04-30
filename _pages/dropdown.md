@@ -12,7 +12,7 @@ children:
   #   permalink: /repositories/
   # - title: divider
   # - title: teaching
-  #   permalink: /teaching/  
+  #   permalink: /teaching/
   # - title: divider
   - title: cv
     permalink: /assets/pdf/Howerton_CV.pdf/

@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: featured repositories
-description: 
+description:
 nav: false
 nav_order: 4
 ---
