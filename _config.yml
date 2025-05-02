@@ -269,7 +269,7 @@ scholar:
   last_name: [Howerton]
   first_name: [Emily]
 
-  style: apa
+  style: modern-language-association
   locale: en
 
   source: /_bibliography/
