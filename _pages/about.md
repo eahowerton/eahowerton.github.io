@@ -27,9 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My research leverages a range of quantitative methods to better understand the biology of infectious diseases and improve our predictions of future outbreaks. My interests include the **community ecology and cross-scale dynamics of respriatory viruses**, such as the implications of virus-virus interactions for coexistence and population dynamics. In parallel, my work advances **real-time predictability of respiratory virus burden**. As a member of the [US Scenario Modeling Hub](https://scenariomodelinghub.org), I develop new methods to improve multi-model scenario projections that inform public health decision making in real time.
+My research leverages a range of quantitative methods to better understand the biology of infectious diseases and improve our predictions of future outbreaks. My interests include the **community ecology and cross-scale dynamics of respriatory viruses**, such as the implications of virus-virus interactions for coexistence and population dynamics. In parallel, my work advances **real-time predictability of respiratory virus burden**. As a member of the [US Scenario Modeling Hub](https://scenariomodelinghub.org), I develop new methods to improve multi-model scenario projections that inform public health decision making in real time. 
 
 Beyond research, I am passionate about teaching mathematics to biology students and developing student confidence in their mathematical abilities.
+
+<!-- For more on mutli-model methods, check out two of my research talks ([here](https://www.youtube.com/watch?v=zLB9zyG-koI) and [here](https://www.youtube.com/watch?v=BSKv0QbDhoc)), and a piece I wrote for The Conversation ([here](https://theconversation.com/pooling-multiple-models-during-covid-19-pandemic-provided-more-reliable-projections-about-an-uncertain-future-215135)). -->
 
 <!-- See my [teaching page](_pages/teaching.md) to learn more!   -->
 <!-- making quantiative methods accessible -->

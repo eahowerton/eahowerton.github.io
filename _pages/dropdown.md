@@ -1,7 +1,7 @@
 ---
 layout: page
 title: more
-nav: true
+nav: false
 nav_order: 8
 dropdown: true
 children:
@@ -14,6 +14,6 @@ children:
   # - title: teaching
   #   permalink: /teaching/
   # - title: divider
-  - title: cv
-    permalink: /assets/pdf/Howerton_CV.pdf/
+  #  - title: cv
+  #   permalink: /assets/pdf/Howerton_CV.pdf/
 ---

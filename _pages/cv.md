@@ -1,8 +1,8 @@
 ---
-layout: cv
+layout: cv2
 permalink: /cv/
-title: cv
-nav: false
+title: CV
+nav: true
 nav_order: 5
 cv_pdf: Howerton_CV.pdf # you can also use external links here
 description:
