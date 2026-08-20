@@ -1,4 +1,5 @@
 _site
+cv/build/
 .bundle
 .sass-cache
 .jekyll-cache

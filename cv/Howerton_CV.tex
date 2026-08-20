@@ -1,0 +1,146 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{cvstyle}
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  sorting=none,
+  giveninits=true,
+  uniquename=false,
+  maxnames=13,
+  minnames=12,
+  doi=false,
+  url=false,
+  isbn=false,
+  eprint=false
+]{biblatex}
+
+\addbibresource{../_bibliography/papers.bib}
+\addbibresource{manuscripts.bib}
+
+\DeclareBibliographyCategory{cvpublished}
+\DeclareBibliographyCategory{cvmanuscripts}
+
+\addtocategory{cvpublished}{
+  howerton_assessing_accepted,
+  hadley_how_2026,
+  kerr_software_2026,
+  shandross_multi-model_2026,
+  thompson_infectious_2026,
+  park_susceptible_2026,
+  howerton_using_2025,
+  park_interplay_2025,
+  nielsen_complex_2025,
+  loo_scenario_2025,
+  park_predicting_2024,
+  howerton_misapplied_2024,
+  wade-malone_when_2024,
+  runge_scenario_2024,
+  jung_potential_2024,
+  bay_ensemble2_2024,
+  vanalli_people_2024,
+  loo_us_2024,
+  howerton_evaluation_2023,
+  howerton_effect_2023,
+  yang_benefits_2023,
+  shea_multiple_2023,
+  castonguay_optimal_2023,
+  howerton_context-dependent_2023,
+  borchering_impact_2023,
+  truelove_projected_2022,
+  howerton_synergistic_2021,
+  nichols_strategic_2021,
+  borchering_modeling_2021,
+  pasteur_flight-based_2018%
+}
+
+\addtocategory{cvmanuscripts}{
+  benhamou_rhinovirus_revision,
+  sheen_global_change_revision,
+  bents_heterogeneities_revision,
+  deangelis_ecological_theory_revision,
+  howerton_weather_submitted,
+  johnston_vaccine_imprinting_submitted,
+  oghenebrume_reporting_submitted,
+  burrows_unexpected_submitted,
+  nande_vaccination_submitted,
+  nguyen_tran_enterovirus_submitted,
+  howerton_vaccination_inprep,
+  fiandrino_adaptive_inprep%
+}
+
+\DeclareNameAlias{author}{given-family}
+\renewcommand*{\bibinitperiod}{}
+\renewcommand*{\bibinitdelim}{}
+\renewcommand*{\revsdnamepunct}{\addspace}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifdefstring{\namepartfamily}{Howerton}{\mkbibbold{#1}}{#1}%
+}
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifdefstring{\namepartfamily}{Howerton}{\mkbibbold{#1}}{#1}%
+  \ifitemannotation{jointfirst}{\cvstar}{}%
+}
+
+\DeclareFieldFormat{title}{\mkbibquote{#1}}
+\DeclareFieldFormat{journaltitle}{\mkbibemph{#1}}
+\DeclareFieldFormat{pubstate}{\mkbibemph{#1}}
+\DeclareFieldFormat{doi}{\href{https://doi.org/#1}{\nolinkurl{doi:#1}}}
+
+\newbibmacro*{cv:impact}{%
+  \iffieldequalstr{entrykey}{nichols_strategic_2021}{%
+    \cvimpact{USGS briefing to the head of the U.S. Department of the Interior and \href{https://www.usgs.gov/news/usgs-led-study-helps-fight-against-coronavirus-pandemic}{press release}; reached more than 30,000 Facebook users and was reported by more than 10 news outlets.}%
+  }{}%
+  \iffieldequalstr{entrykey}{borchering_modeling_2021}{%
+    \cvimpact{Top 5\% of research outputs scored by Altmetric; featured in a \href{https://www.youtube.com/watch?v=slZ0uU4zhIo\&t=2502s}{White House COVID-19 press briefing} by CDC Director Rochelle Walensky; more than 550 tweets and coverage by more than 125 news outlets.}%
+  }{}%
+}
+
+\newbibmacro*{cv:entry}{%
+  \printnames{author}%
+  \setunit{\addperiod\space}%
+  \iffieldundef{year}{}{\printfield{year}\setunit{\addperiod\space}}%
+  \iffieldequalstr{entrykey}{park_predicting_2024}
+    {\mkbibquote{Predicting the impact of non-pharmaceutical interventions against COVID-19 on \mkbibemph{Mycoplasma pneumoniae} in the United States}}
+    {\printfield{title}}%
+  \setunit{\addperiod\space}%
+  \iffieldundef{journaltitle}
+    {\printfield{pubstate}}
+    {\printfield{journaltitle}%
+     \iffieldundef{volume}{}{\setunit{\addspace}\printfield{volume}}%
+     \iffieldundef{number}{}{\setunit{\addspace}\printfield{number}}%
+     \iffieldundef{pages}{}{\setunit{\addcolon\space}\printfield{pages}}}%
+  \iffieldundef{doi}{}{\setunit{\addperiod\space}\printfield{doi}}%
+  \finentry
+  \usebibmacro{cv:impact}%
+}
+
+\DeclareBibliographyDriver{article}{\usebibmacro{cv:entry}}
+\DeclareBibliographyDriver{unpublished}{\usebibmacro{cv:entry}}
+\DeclareBibliographyDriver{report}{\usebibmacro{cv:entry}}
+\DeclareBibliographyDriver{inproceedings}{\usebibmacro{cv:entry}}
+\DeclareBibliographyDriver{misc}{\usebibmacro{cv:entry}}
+
+\defbibenvironment{bibliography}
+  {\begin{cvnumbered}}
+  {\end{cvnumbered}}
+  {\item}
+
+\AtBeginBibliography{\normalsize}
+
+\begin{document}
+
+\cvheader
+  {Emily Howerton}
+  {Postdoctoral Research Associate, Princeton University}
+  {https://eahowerton.github.io}
+  {ehowerton@princeton.edu}
+
+\input{sections/education}
+\input{sections/publications}
+\input{sections/engagement-awards}
+\input{sections/service-grants}
+\input{sections/presentations}
+\input{sections/teaching-activities}
+
+\end{document}
