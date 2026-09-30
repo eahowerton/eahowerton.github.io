@@ -22,7 +22,8 @@
 \DeclareBibliographyCategory{cvmanuscripts}
 
 \addtocategory{cvpublished}{
-  howerton_assessing_accepted,
+  howerton_assessing_2026,
+  sheen_global_change_revision,
   hadley_how_2026,
   kerr_software_2026,
   shandross_multi-model_2026,
@@ -56,7 +57,6 @@
 
 \addtocategory{cvmanuscripts}{
   benhamou_rhinovirus_revision,
-  sheen_global_change_revision,
   bents_heterogeneities_revision,
   deangelis_ecological_theory_revision,
   howerton_weather_submitted,
@@ -109,7 +109,8 @@
     {\printfield{journaltitle}%
      \iffieldundef{volume}{}{\setunit{\addspace}\printfield{volume}}%
      \iffieldundef{number}{}{\setunit{\addspace}\printfield{number}}%
-     \iffieldundef{pages}{}{\setunit{\addcolon\space}\printfield{pages}}}%
+     \iffieldundef{pages}{}{\setunit{\addcolon\space}\printfield{pages}}%
+     \iffieldundef{pubstate}{}{\setunit{\addspace}\printtext{(\printfield{pubstate})}}}%
   \iffieldundef{doi}{}{\setunit{\addperiod\space}\printfield{doi}}%
   \finentry
   \usebibmacro{cv:impact}%
